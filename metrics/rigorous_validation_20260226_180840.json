@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-02-26T18:08:40.987127",
+  "baseline": {
+    "runs": 50,
+    "collapse_frequency": 0.0,
+    "collapse_frequency_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_collapse_step": -1,
+    "collapse_step_std": 0,
+    "collapse_step_kurtosis": 0,
+    "collapse_step_skewness": 0,
+    "renaissance_rate": 0.0,
+    "extinction_rate": 0.0,
+    "mean_lifespan": 999,
+    "lifespan_std": 0.0,
+    "final_population_mean": 15.74,
+    "final_population_std": 4.889847875435182,
+    "symbol_count_mean": 31.54,
+    "symbol_count_kurtosis": -1.0530480382506797,
+    "schism_rate_mean": 0.8,
+    "avg_efficiency": 0.3444265639440808,
+    "golden_age_rate": 0.0
+  },
+  "total_runs": 270
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-02-26T18:16:34.458312",
+  "runtime_seconds": 167.76499891281128,
+  "baseline": {
+    "runs": 30,
+    "collapse_frequency": 93.33333333333333,
+    "collapse_frequency_ci": [
+      0.8425450443861255,
+      1.0241216222805412
+    ],
+    "mean_collapse_step": 82.17857142857143,
+    "collapse_step_std": 103.15937097571805,
+    "collapse_step_kurtosis": 5.831053431173544,
+    "collapse_step_skewness": 2.3594138759061933,
+    "renaissance_rate": 93.33333333333333,
+    "extinction_rate": 0.0,
+    "mean_final_population": 2836.1666666666665,
+    "mean_final_tribes": 142.83333333333334,
+    "mean_collapses": 36.96666666666667,
+    "mean_schisms": 137.83333333333334,
+    "mean_wars": 453,
+    "mean_renaissances": 17.433333333333334,
+    "mean_efficiency": 0.7942646411865744,
+    "mean_symbols": 1204.6666666666667,
+    "population_variance": 2018856.971264368,
+    "collapse_variance": 404.7919540229885
+  }
+}

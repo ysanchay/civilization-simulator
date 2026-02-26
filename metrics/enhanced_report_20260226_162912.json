@@ -1,0 +1,367 @@
+{
+  "simulation": {
+    "steps": 3000,
+    "world_size": [
+      25,
+      25
+    ],
+    "competition_enabled": true
+  },
+  "emergence": {
+    "language": {
+      "vocabulary_size": 332,
+      "composed_symbols": 437,
+      "meta_symbols": 58,
+      "abstraction_depth": 3.0
+    },
+    "culture": {
+      "symbol_adoption_rate": 0.0,
+      "knowledge_transfer_events": 0,
+      "innovation_rate": 0.0
+    },
+    "social": {
+      "tribe_count": 15,
+      "alliance_count": 61,
+      "war_count": 495,
+      "dominance_stability": 0.0
+    },
+    "behavior": {
+      "goal_formation_rate": 0.0,
+      "planning_depth": 0.0,
+      "exploration_rate": 0.0
+    }
+  },
+  "survival": {
+    "population": {
+      "min": 20,
+      "max": 143,
+      "final": 112,
+      "mean": 90.90333333333334,
+      "std": 13.97012444520665
+    },
+    "survival": {
+      "extinction_events": 0,
+      "tribes_extinct": 0,
+      "tribes_surviving": 4,
+      "avg_lifespan": 0.0
+    },
+    "reproduction": {
+      "births": 0,
+      "deaths": 0,
+      "rate": 0.0,
+      "max_generation": 0
+    }
+  },
+  "intelligence": {
+    "temporal": {
+      "accuracy": 0.8766666666666666,
+      "prediction_rate": 0.0
+    },
+    "abstraction": {
+      "max_depth": 3,
+      "avg_depth": 3,
+      "progression": []
+    },
+    "memory": {
+      "episodic": 0,
+      "semantic": 0,
+      "utilization": 0.0
+    },
+    "goals": {
+      "formed": 75,
+      "completed": 0,
+      "completion_rate": 0.0
+    }
+  },
+  "success": {
+    "emergence": 66.66666666666667,
+    "survival": 82.31594489831323,
+    "intelligence": 100,
+    "overall": 81.36145013616064,
+    "components": {
+      "language": 100,
+      "culture": 0.0,
+      "competition": 100
+    }
+  },
+  "use_cases": {
+    "gaming": {
+      "use_case": "gaming",
+      "score": 100,
+      "suitable": true,
+      "recommendations": []
+    },
+    "ai_safety": {
+      "use_case": "ai_safety",
+      "score": 100,
+      "suitable": true,
+      "recommendations": []
+    },
+    "education": {
+      "use_case": "education",
+      "score": 100,
+      "suitable": true,
+      "recommendations": []
+    },
+    "robotics": {
+      "use_case": "robotics",
+      "score": 40.0,
+      "suitable": true,
+      "recommendations": [
+        "Increase inter-tribe knowledge sharing",
+        "Improve goal-directed behavior"
+      ]
+    }
+  },
+  "learning_verification": {
+    "temporal_learning": true,
+    "symbol_accumulation": true,
+    "abstraction_progression": true,
+    "knowledge_transfer": true,
+    "meta_symbol_usage": true,
+    "evidence": [
+      "Temporal accuracy improved: 0.78 \u2192 0.88",
+      "Symbols accumulated: 152 \u2192 326",
+      "Composed symbols reached: 437",
+      "Meta-symbols reached: 71",
+      "Knowledge transfer events: symbols exchanged between tribes"
+    ]
+  },
+  "history": {
+    "population_final": 112,
+    "population_max": 143,
+    "symbols_final": 332,
+    "composed_final": 437,
+    "meta_final": 58,
+    "wars_total": 495,
+    "alliances_total": 61,
+    "temporal_accuracy_final": 0.8766666666666666
+  },
+  "tribes": {
+    "0": {
+      "population": 26,
+      "symbols": 42,
+      "composed": 50,
+      "meta": 5,
+      "temporal_accuracy": 0.87,
+      "home_biome": 0,
+      "status": "ACTIVE",
+      "goals": 10,
+      "avg_value": -5.61,
+      "dominance": 98.8,
+      "victories": 22,
+      "allies": 11,
+      "enemies": 2
+    },
+    "1": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 30,
+      "meta": 4,
+      "temporal_accuracy": 0.87,
+      "home_biome": 2,
+      "status": "EXTINCT",
+      "goals": 4,
+      "avg_value": -25.44,
+      "dominance": 63.3,
+      "victories": 27,
+      "allies": 8,
+      "enemies": 5
+    },
+    "2": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 7,
+      "meta": 2,
+      "temporal_accuracy": 0.89,
+      "home_biome": 1,
+      "status": "EXTINCT",
+      "goals": 4,
+      "avg_value": -47.74,
+      "dominance": 33.3,
+      "victories": 12,
+      "allies": 8,
+      "enemies": 4
+    },
+    "3": {
+      "population": 0,
+      "symbols": 17,
+      "composed": 24,
+      "meta": 3,
+      "temporal_accuracy": 0.86,
+      "home_biome": 1,
+      "status": "EXTINCT",
+      "goals": 2,
+      "avg_value": -31.83,
+      "dominance": 50.3,
+      "victories": 20,
+      "allies": 8,
+      "enemies": 5
+    },
+    "4": {
+      "population": 20,
+      "symbols": 37,
+      "composed": 64,
+      "meta": 6,
+      "temporal_accuracy": 0.87,
+      "home_biome": 2,
+      "status": "ACTIVE",
+      "goals": 12,
+      "avg_value": -7.26,
+      "dominance": 78.5,
+      "victories": 17,
+      "allies": 11,
+      "enemies": 3
+    },
+    "5": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 31,
+      "meta": 4,
+      "temporal_accuracy": 0.87,
+      "home_biome": 1,
+      "status": "EXTINCT",
+      "goals": 4,
+      "avg_value": -21.75,
+      "dominance": 102.8,
+      "victories": 46,
+      "allies": 8,
+      "enemies": 5
+    },
+    "6": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 5,
+      "meta": 2,
+      "temporal_accuracy": 0.91,
+      "home_biome": 1,
+      "status": "EXTINCT",
+      "goals": 0,
+      "avg_value": -22.65,
+      "dominance": 15.8,
+      "victories": 2,
+      "allies": 1,
+      "enemies": 4
+    },
+    "7": {
+      "population": 0,
+      "symbols": 16,
+      "composed": 33,
+      "meta": 3,
+      "temporal_accuracy": 0.87,
+      "home_biome": 2,
+      "status": "EXTINCT",
+      "goals": 6,
+      "avg_value": -13.02,
+      "dominance": 89.3,
+      "victories": 40,
+      "allies": 9,
+      "enemies": 5
+    },
+    "8": {
+      "population": 32,
+      "symbols": 36,
+      "composed": 44,
+      "meta": 11,
+      "temporal_accuracy": 0.87,
+      "home_biome": 2,
+      "status": "ACTIVE",
+      "goals": 11,
+      "avg_value": -1.47,
+      "dominance": 193.6,
+      "victories": 67,
+      "allies": 9,
+      "enemies": 3
+    },
+    "9": {
+      "population": 34,
+      "symbols": 45,
+      "composed": 49,
+      "meta": 6,
+      "temporal_accuracy": 0.87,
+      "home_biome": 0,
+      "status": "ACTIVE",
+      "goals": 10,
+      "avg_value": -3.45,
+      "dominance": 136.7,
+      "victories": 35,
+      "allies": 9,
+      "enemies": 4
+    },
+    "10": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 5,
+      "meta": 2,
+      "temporal_accuracy": 0.91,
+      "home_biome": 2,
+      "status": "EXTINCT",
+      "goals": 0,
+      "avg_value": -41.68,
+      "dominance": 15.3,
+      "victories": 1,
+      "allies": 5,
+      "enemies": 3
+    },
+    "11": {
+      "population": 0,
+      "symbols": 17,
+      "composed": 10,
+      "meta": 2,
+      "temporal_accuracy": 0.87,
+      "home_biome": 2,
+      "status": "EXTINCT",
+      "goals": 3,
+      "avg_value": -43.69,
+      "dominance": 23.8,
+      "victories": 7,
+      "allies": 8,
+      "enemies": 5
+    },
+    "12": {
+      "population": 0,
+      "symbols": 14,
+      "composed": 12,
+      "meta": 2,
+      "temporal_accuracy": 0.89,
+      "home_biome": 0,
+      "status": "EXTINCT",
+      "goals": 4,
+      "avg_value": -42.54,
+      "dominance": 30.3,
+      "victories": 11,
+      "allies": 9,
+      "enemies": 4
+    },
+    "13": {
+      "population": 0,
+      "symbols": 18,
+      "composed": 37,
+      "meta": 2,
+      "temporal_accuracy": 0.86,
+      "home_biome": 0,
+      "status": "EXTINCT",
+      "goals": 1,
+      "avg_value": -6.63,
+      "dominance": 98.3,
+      "victories": 44,
+      "allies": 8,
+      "enemies": 4
+    },
+    "14": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 36,
+      "meta": 4,
+      "temporal_accuracy": 0.87,
+      "home_biome": 2,
+      "status": "EXTINCT",
+      "goals": 4,
+      "avg_value": -13.96,
+      "dominance": 84.8,
+      "victories": 38,
+      "allies": 10,
+      "enemies": 4
+    }
+  }
+}

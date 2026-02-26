@@ -1,0 +1,36 @@
+{
+  "cognitive_stress": {
+    "status": "\u2705 WORKING",
+    "high_chaos": 0.25244129544236893,
+    "low_chaos": 0.008414709848078966,
+    "overload_triggered": false,
+    "impact": true
+  },
+  "territory": {
+    "status": "\u2705 WORKING",
+    "claimed_cells": 25,
+    "conquests": 0,
+    "contested": 0,
+    "impact": false
+  },
+  "scaling": {
+    "status": "\u2705 WORKING",
+    "small_efficiency": 0.864001875133098,
+    "medium_efficiency": 0.46301306831122807,
+    "large_efficiency": 0.1,
+    "small_risk": 0.0,
+    "large_risk": 1.0,
+    "impact": true
+  },
+  "collapse": {
+    "status": "\u274c ERROR: name 'CollapsedType' is not defined"
+  },
+  "schism": {
+    "status": "\u2705 WORKING",
+    "factions_created": 2,
+    "small_risk": 0.12,
+    "medium_risk": 0.30000000000000004,
+    "large_risk": 0.7799999999999999,
+    "impact": true
+  }
+}

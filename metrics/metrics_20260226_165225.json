@@ -1,0 +1,86 @@
+{
+  "emergence": {
+    "language": {
+      "vocabulary_size": 217,
+      "composed_symbols": 277,
+      "meta_symbols": 46,
+      "abstraction_depth": 3.0
+    },
+    "culture": {
+      "symbol_adoption_rate": 0.0,
+      "knowledge_transfer_events": 0,
+      "innovation_rate": 0.0
+    },
+    "social": {
+      "tribe_count": 10,
+      "alliance_count": 31,
+      "war_count": 335,
+      "dominance_stability": 0.0
+    },
+    "behavior": {
+      "goal_formation_rate": 0.0,
+      "planning_depth": 0.0,
+      "exploration_rate": 0.0
+    }
+  },
+  "survival": {
+    "population": {
+      "min": 12,
+      "max": 125,
+      "final": 111,
+      "mean": 83.36666666666666,
+      "std": 16.236643106618395
+    },
+    "survival": {
+      "extinction_events": 0,
+      "tribes_extinct": 0,
+      "tribes_surviving": 6,
+      "avg_lifespan": 0.0
+    },
+    "reproduction": {
+      "births": 0,
+      "deaths": 0,
+      "rate": 0.0,
+      "max_generation": 0
+    }
+  },
+  "intelligence": {
+    "temporal": {
+      "accuracy": 0.0,
+      "prediction_rate": 0.0
+    },
+    "abstraction": {
+      "max_depth": 3,
+      "avg_depth": 3,
+      "progression": []
+    },
+    "memory": {
+      "episodic": 0,
+      "semantic": 0,
+      "utilization": 0.0
+    },
+    "goals": {
+      "formed": 53,
+      "completed": 0,
+      "completion_rate": 0.0
+    }
+  },
+  "success": {
+    "emergence": 66.66666666666667,
+    "survival": 90.26190937228006,
+    "intelligence": 60.0,
+    "overall": 71.74523947835068,
+    "components": {
+      "language": 100,
+      "culture": 0.0,
+      "competition": 100
+    }
+  },
+  "events": {
+    "total_births": 0,
+    "total_deaths": 0,
+    "total_wars": 335,
+    "total_alliances": 31,
+    "total_innovations": 0
+  }
+}

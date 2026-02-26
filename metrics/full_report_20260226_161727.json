@@ -1,0 +1,220 @@
+{
+  "simulation": {
+    "steps": 2000,
+    "world_size": [
+      20,
+      20
+    ],
+    "initial_agents": 10
+  },
+  "emergence": {
+    "language": {
+      "vocabulary_size": 246,
+      "composed_symbols": 296,
+      "meta_symbols": 39,
+      "abstraction_depth": 3.0
+    },
+    "culture": {
+      "symbol_adoption_rate": 0.0,
+      "knowledge_transfer_events": 0,
+      "innovation_rate": 0.0
+    },
+    "social": {
+      "tribe_count": 10,
+      "alliance_count": 0,
+      "war_count": 0,
+      "dominance_stability": 0.0
+    },
+    "behavior": {
+      "goal_formation_rate": 0.0,
+      "planning_depth": 0.0,
+      "exploration_rate": 0.0
+    }
+  },
+  "survival": {
+    "population": {
+      "min": 11,
+      "max": 107,
+      "final": 64,
+      "mean": 73.794,
+      "std": 12.611228550096591
+    },
+    "survival": {
+      "extinction_events": 0,
+      "tribes_extinct": 0,
+      "tribes_surviving": 5,
+      "avg_lifespan": 0.0
+    },
+    "reproduction": {
+      "births": 1004,
+      "deaths": 950,
+      "rate": 0.502,
+      "max_generation": 0
+    }
+  },
+  "intelligence": {
+    "temporal": {
+      "accuracy": 0.0,
+      "prediction_rate": 0.0
+    },
+    "abstraction": {
+      "max_depth": 3,
+      "avg_depth": 3,
+      "progression": []
+    },
+    "memory": {
+      "episodic": 0,
+      "semantic": 0,
+      "utilization": 0.0
+    },
+    "goals": {
+      "formed": 51,
+      "completed": 0,
+      "completion_rate": 0.0
+    }
+  },
+  "success": {
+    "emergence": 33.333333333333336,
+    "survival": 91.45511250908163,
+    "intelligence": 60.0,
+    "overall": 58.76986708605783,
+    "components": {
+      "language": 100,
+      "culture": 0.0,
+      "competition": 0.0
+    }
+  },
+  "use_cases": {
+    "gaming": {
+      "use_case": "gaming",
+      "score": 100,
+      "suitable": true,
+      "recommendations": [
+        "Add more tribe interaction mechanics"
+      ]
+    },
+    "ai_safety": {
+      "use_case": "ai_safety",
+      "score": 74.01857875635714,
+      "suitable": true,
+      "recommendations": [
+        "Improve temporal prediction for alignment testing"
+      ]
+    },
+    "education": {
+      "use_case": "education",
+      "score": 100,
+      "suitable": true,
+      "recommendations": []
+    },
+    "robotics": {
+      "use_case": "robotics",
+      "score": 50.0,
+      "suitable": true,
+      "recommendations": [
+        "Increase inter-tribe knowledge sharing",
+        "Improve goal-directed behavior"
+      ]
+    }
+  },
+  "history": {
+    "population_final": 64,
+    "population_max": 107,
+    "population_min": 11,
+    "symbols_final": 246,
+    "composed_final": 296,
+    "meta_final": 39
+  },
+  "tribes": {
+    "0": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 9,
+      "meta": 2,
+      "home_biome": 1,
+      "goals": 0,
+      "avg_value": -23.6
+    },
+    "1": {
+      "population": 0,
+      "symbols": 20,
+      "composed": 39,
+      "meta": 4,
+      "home_biome": 2,
+      "goals": 1,
+      "avg_value": -2.09
+    },
+    "2": {
+      "population": 3,
+      "symbols": 18,
+      "composed": 29,
+      "meta": 6,
+      "home_biome": 0,
+      "goals": 4,
+      "avg_value": -4.22
+    },
+    "3": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 6,
+      "meta": 2,
+      "home_biome": 0,
+      "goals": 3,
+      "avg_value": -31.58
+    },
+    "4": {
+      "population": 7,
+      "symbols": 40,
+      "composed": 47,
+      "meta": 4,
+      "home_biome": 1,
+      "goals": 12,
+      "avg_value": -3.18
+    },
+    "5": {
+      "population": 30,
+      "symbols": 36,
+      "composed": 50,
+      "meta": 5,
+      "home_biome": 0,
+      "goals": 12,
+      "avg_value": -0.49
+    },
+    "6": {
+      "population": 14,
+      "symbols": 42,
+      "composed": 60,
+      "meta": 7,
+      "home_biome": 2,
+      "goals": 12,
+      "avg_value": -0.46
+    },
+    "7": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 10,
+      "meta": 2,
+      "home_biome": 1,
+      "goals": 2,
+      "avg_value": -18.77
+    },
+    "8": {
+      "population": 0,
+      "symbols": 15,
+      "composed": 7,
+      "meta": 3,
+      "home_biome": 0,
+      "goals": 1,
+      "avg_value": -22.9
+    },
+    "9": {
+      "population": 10,
+      "symbols": 30,
+      "composed": 39,
+      "meta": 4,
+      "home_biome": 2,
+      "goals": 4,
+      "avg_value": -0.91
+    }
+  }
+}

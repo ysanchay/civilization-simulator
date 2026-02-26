@@ -1,0 +1,36 @@
+{
+  "territory": {
+    "status": "\u2705 WORKING",
+    "claimed_cells": 18,
+    "conquests": 0,
+    "tribes_with_land": 2
+  },
+  "historical": {
+    "status": "\u2705 WORKING",
+    "events": 6,
+    "myths": 5,
+    "active_tribes": 1
+  },
+  "cognitive_stress": {
+    "status": "\u2705 WORKING",
+    "time_distortion": 0.12622064772118446,
+    "false_signals": 3,
+    "overload_level": 0.0
+  },
+  "scaling": {
+    "status": "\u2705 WORKING",
+    "small_efficiency": "86.4%",
+    "medium_efficiency": "47.6%",
+    "large_efficiency": "10.2%",
+    "large_failure_risk": "100.0%"
+  },
+  "schism": {
+    "status": "\u2705 WORKING",
+    "factions": 2,
+    "schism_risk": "30.0%",
+    "stability": "80.0%"
+  },
+  "collapse": {
+    "status": "\u274c ERROR: name 'CollapsedType' is not defined"
+  }
+}

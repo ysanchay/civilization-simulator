@@ -1,0 +1,1528 @@
+[
+  {
+    "simulation": {
+      "steps": 2500,
+      "world_size": [
+        20,
+        20
+      ],
+      "competition_enabled": true
+    },
+    "emergence": {
+      "language": {
+        "vocabulary_size": 259,
+        "composed_symbols": 394,
+        "meta_symbols": 51,
+        "abstraction_depth": 3.0
+      },
+      "culture": {
+        "symbol_adoption_rate": 0.0,
+        "knowledge_transfer_events": 0,
+        "innovation_rate": 0.0
+      },
+      "social": {
+        "tribe_count": 10,
+        "alliance_count": 32,
+        "war_count": 182,
+        "dominance_stability": 0.0
+      },
+      "behavior": {
+        "goal_formation_rate": 0.0,
+        "planning_depth": 0.0,
+        "exploration_rate": 0.0
+      }
+    },
+    "survival": {
+      "population": {
+        "min": 13,
+        "max": 98,
+        "final": 91,
+        "mean": 65.8316,
+        "std": 10.162664677206296
+      },
+      "survival": {
+        "extinction_events": 0,
+        "tribes_extinct": 0,
+        "tribes_surviving": 3,
+        "avg_lifespan": 0.0
+      },
+      "reproduction": {
+        "births": 0,
+        "deaths": 0,
+        "rate": 0.0,
+        "max_generation": 0
+      }
+    },
+    "intelligence": {
+      "temporal": {
+        "accuracy": 0.877,
+        "prediction_rate": 0.0
+      },
+      "abstraction": {
+        "max_depth": 3,
+        "avg_depth": 3,
+        "progression": []
+      },
+      "memory": {
+        "episodic": 0,
+        "semantic": 0,
+        "utilization": 0.0
+      },
+      "goals": {
+        "formed": 41,
+        "completed": 0,
+        "completion_rate": 0.0
+      }
+    },
+    "success": {
+      "emergence": 66.66666666666667,
+      "survival": 72.28131727224745,
+      "intelligence": 100,
+      "overall": 78.3510618483409,
+      "components": {
+        "language": 100,
+        "culture": 0.0,
+        "competition": 100
+      }
+    },
+    "use_cases": {
+      "gaming": {
+        "use_case": "gaming",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "ai_safety": {
+        "use_case": "ai_safety",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "education": {
+        "use_case": "education",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "robotics": {
+        "use_case": "robotics",
+        "score": 30.0,
+        "suitable": false,
+        "recommendations": [
+          "Increase inter-tribe knowledge sharing",
+          "Improve goal-directed behavior"
+        ]
+      }
+    },
+    "learning_verification": {
+      "temporal_learning": false,
+      "symbol_accumulation": true,
+      "abstraction_progression": true,
+      "knowledge_transfer": true,
+      "meta_symbol_usage": true,
+      "evidence": [
+        "Symbols accumulated: 115 \u2192 259",
+        "Composed symbols reached: 394",
+        "Meta-symbols reached: 53",
+        "Knowledge transfer events: symbols exchanged between tribes"
+      ]
+    },
+    "history": {
+      "population_final": 91,
+      "population_max": 98,
+      "symbols_final": 259,
+      "composed_final": 394,
+      "meta_final": 51,
+      "wars_total": 182,
+      "alliances_total": 32,
+      "temporal_accuracy_final": 0.877
+    },
+    "tribes": {
+      "0": {
+        "population": 10,
+        "symbols": 37,
+        "composed": 41,
+        "meta": 11,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 6,
+        "avg_value": -2.11,
+        "dominance": 49.5,
+        "victories": 9,
+        "allies": 7,
+        "enemies": 2
+      },
+      "1": {
+        "population": 0,
+        "symbols": 16,
+        "composed": 8,
+        "meta": 2,
+        "temporal_accuracy": 0.89,
+        "home_biome": 1,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -40.0,
+        "dominance": 22.3,
+        "victories": 6,
+        "allies": 5,
+        "enemies": 4
+      },
+      "2": {
+        "population": 47,
+        "symbols": 49,
+        "composed": 75,
+        "meta": 6,
+        "temporal_accuracy": 0.87,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 12,
+        "avg_value": -0.39,
+        "dominance": 101.6,
+        "victories": 8,
+        "allies": 8,
+        "enemies": 1
+      },
+      "3": {
+        "population": 34,
+        "symbols": 51,
+        "composed": 107,
+        "meta": 9,
+        "temporal_accuracy": 0.87,
+        "home_biome": 1,
+        "status": "ACTIVE",
+        "goals": 13,
+        "avg_value": -0.48,
+        "dominance": 113.7,
+        "victories": 22,
+        "allies": 7,
+        "enemies": 2
+      },
+      "4": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 16,
+        "meta": 3,
+        "temporal_accuracy": 0.89,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -38.12,
+        "dominance": 38.8,
+        "victories": 14,
+        "allies": 6,
+        "enemies": 3
+      },
+      "5": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 19,
+        "meta": 4,
+        "temporal_accuracy": 0.89,
+        "home_biome": 2,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -45.56,
+        "dominance": 65.8,
+        "victories": 28,
+        "allies": 6,
+        "enemies": 3
+      },
+      "6": {
+        "population": 0,
+        "symbols": 19,
+        "composed": 21,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 1,
+        "status": "EXTINCT",
+        "goals": 3,
+        "avg_value": -29.57,
+        "dominance": 34.8,
+        "victories": 12,
+        "allies": 6,
+        "enemies": 3
+      },
+      "7": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 18,
+        "meta": 4,
+        "temporal_accuracy": 0.9,
+        "home_biome": 2,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -43.05,
+        "dominance": 42.8,
+        "victories": 17,
+        "allies": 5,
+        "enemies": 4
+      },
+      "8": {
+        "population": 0,
+        "symbols": 27,
+        "composed": 64,
+        "meta": 4,
+        "temporal_accuracy": 0.85,
+        "home_biome": 2,
+        "status": "EXTINCT",
+        "goals": 3,
+        "avg_value": -6.28,
+        "dominance": 27.3,
+        "victories": 5,
+        "allies": 8,
+        "enemies": 1
+      },
+      "9": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 25,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -47.83,
+        "dominance": 51.3,
+        "victories": 21,
+        "allies": 6,
+        "enemies": 3
+      }
+    },
+    "evolution": {
+      "run_id": 0,
+      "new_symbols": 84,
+      "retained_symbols": 0,
+      "new_meta_symbols": 19,
+      "total_symbols": 84,
+      "total_meta": 19,
+      "knowledge_retention": 0.0
+    },
+    "elapsed_time": 27.938379049301147,
+    "world_size": [
+      20,
+      20
+    ]
+  },
+  {
+    "simulation": {
+      "steps": 2500,
+      "world_size": [
+        22,
+        22
+      ],
+      "competition_enabled": true
+    },
+    "emergence": {
+      "language": {
+        "vocabulary_size": 216,
+        "composed_symbols": 350,
+        "meta_symbols": 43,
+        "abstraction_depth": 3.0
+      },
+      "culture": {
+        "symbol_adoption_rate": 0.0,
+        "knowledge_transfer_events": 0,
+        "innovation_rate": 0.0
+      },
+      "social": {
+        "tribe_count": 10,
+        "alliance_count": 29,
+        "war_count": 481,
+        "dominance_stability": 0.0
+      },
+      "behavior": {
+        "goal_formation_rate": 0.0,
+        "planning_depth": 0.0,
+        "exploration_rate": 0.0
+      }
+    },
+    "survival": {
+      "population": {
+        "min": 11,
+        "max": 105,
+        "final": 101,
+        "mean": 67.2272,
+        "std": 11.943929133130977
+      },
+      "survival": {
+        "extinction_events": 0,
+        "tribes_extinct": 0,
+        "tribes_surviving": 6,
+        "avg_lifespan": 0.0
+      },
+      "reproduction": {
+        "births": 0,
+        "deaths": 0,
+        "rate": 0.0,
+        "max_generation": 0
+      }
+    },
+    "intelligence": {
+      "temporal": {
+        "accuracy": 0.876,
+        "prediction_rate": 0.0
+      },
+      "abstraction": {
+        "max_depth": 3,
+        "avg_depth": 3,
+        "progression": []
+      },
+      "memory": {
+        "episodic": 0,
+        "semantic": 0,
+        "utilization": 0.0
+      },
+      "goals": {
+        "formed": 63,
+        "completed": 0,
+        "completion_rate": 0.0
+      }
+    },
+    "success": {
+      "emergence": 66.66666666666667,
+      "survival": 91.11674357021342,
+      "intelligence": 100,
+      "overall": 84.0016897377307,
+      "components": {
+        "language": 100,
+        "culture": 0.0,
+        "competition": 100
+      }
+    },
+    "use_cases": {
+      "gaming": {
+        "use_case": "gaming",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "ai_safety": {
+        "use_case": "ai_safety",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "education": {
+        "use_case": "education",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "robotics": {
+        "use_case": "robotics",
+        "score": 60.0,
+        "suitable": true,
+        "recommendations": [
+          "Increase inter-tribe knowledge sharing",
+          "Improve goal-directed behavior"
+        ]
+      }
+    },
+    "learning_verification": {
+      "temporal_learning": true,
+      "symbol_accumulation": true,
+      "abstraction_progression": true,
+      "knowledge_transfer": true,
+      "meta_symbol_usage": true,
+      "evidence": [
+        "Temporal accuracy improved: 0.79 \u2192 0.88",
+        "Symbols accumulated: 115 \u2192 211",
+        "Composed symbols reached: 350",
+        "Meta-symbols reached: 52",
+        "Knowledge transfer events: symbols exchanged between tribes"
+      ]
+    },
+    "history": {
+      "population_final": 101,
+      "population_max": 105,
+      "symbols_final": 216,
+      "composed_final": 350,
+      "meta_final": 43,
+      "wars_total": 481,
+      "alliances_total": 29,
+      "temporal_accuracy_final": 0.876
+    },
+    "tribes": {
+      "0": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 9,
+        "meta": 2,
+        "temporal_accuracy": 0.89,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 2,
+        "avg_value": -27.8,
+        "dominance": 23.3,
+        "victories": 6,
+        "allies": 6,
+        "enemies": 3
+      },
+      "1": {
+        "population": 40,
+        "symbols": 38,
+        "composed": 50,
+        "meta": 7,
+        "temporal_accuracy": 0.87,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 10,
+        "avg_value": -0.47,
+        "dominance": 171.0,
+        "victories": 50,
+        "allies": 7,
+        "enemies": 2
+      },
+      "2": {
+        "population": 3,
+        "symbols": 26,
+        "composed": 45,
+        "meta": 5,
+        "temporal_accuracy": 0.87,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -0.62,
+        "dominance": 98.9,
+        "victories": 41,
+        "allies": 6,
+        "enemies": 3
+      },
+      "3": {
+        "population": 14,
+        "symbols": 18,
+        "composed": 44,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 6,
+        "avg_value": -0.52,
+        "dominance": 121.2,
+        "victories": 47,
+        "allies": 6,
+        "enemies": 2
+      },
+      "4": {
+        "population": 15,
+        "symbols": 17,
+        "composed": 40,
+        "meta": 5,
+        "temporal_accuracy": 0.87,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 7,
+        "avg_value": -0.55,
+        "dominance": 138.0,
+        "victories": 55,
+        "allies": 4,
+        "enemies": 5
+      },
+      "5": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 5,
+        "meta": 2,
+        "temporal_accuracy": 0.88,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -38.96,
+        "dominance": 13.3,
+        "victories": 1,
+        "allies": 7,
+        "enemies": 2
+      },
+      "6": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 13,
+        "meta": 3,
+        "temporal_accuracy": 0.88,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -26.22,
+        "dominance": 29.3,
+        "victories": 7,
+        "allies": 5,
+        "enemies": 3
+      },
+      "7": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 38,
+        "meta": 4,
+        "temporal_accuracy": 0.89,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 8,
+        "avg_value": -34.99,
+        "dominance": 53.3,
+        "victories": 22,
+        "allies": 6,
+        "enemies": 3
+      },
+      "8": {
+        "population": 24,
+        "symbols": 30,
+        "composed": 59,
+        "meta": 7,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 14,
+        "avg_value": -3.74,
+        "dominance": 202.2,
+        "victories": 78,
+        "allies": 6,
+        "enemies": 3
+      },
+      "9": {
+        "population": 5,
+        "symbols": 27,
+        "composed": 47,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -0.47,
+        "dominance": 158.0,
+        "victories": 69,
+        "allies": 5,
+        "enemies": 4
+      }
+    },
+    "evolution": {
+      "run_id": 1,
+      "new_symbols": 26,
+      "retained_symbols": 36,
+      "new_meta_symbols": 2,
+      "total_symbols": 62,
+      "total_meta": 13,
+      "knowledge_retention": 0.42857142857142855
+    },
+    "elapsed_time": 31.874178171157837,
+    "world_size": [
+      22,
+      22
+    ]
+  },
+  {
+    "simulation": {
+      "steps": 2500,
+      "world_size": [
+        24,
+        24
+      ],
+      "competition_enabled": true
+    },
+    "emergence": {
+      "language": {
+        "vocabulary_size": 216,
+        "composed_symbols": 377,
+        "meta_symbols": 41,
+        "abstraction_depth": 3.0
+      },
+      "culture": {
+        "symbol_adoption_rate": 0.0,
+        "knowledge_transfer_events": 0,
+        "innovation_rate": 0.0
+      },
+      "social": {
+        "tribe_count": 10,
+        "alliance_count": 30,
+        "war_count": 310,
+        "dominance_stability": 0.0
+      },
+      "behavior": {
+        "goal_formation_rate": 0.0,
+        "planning_depth": 0.0,
+        "exploration_rate": 0.0
+      }
+    },
+    "survival": {
+      "population": {
+        "min": 12,
+        "max": 116,
+        "final": 100,
+        "mean": 82.8612,
+        "std": 12.47064318054745
+      },
+      "survival": {
+        "extinction_events": 0,
+        "tribes_extinct": 0,
+        "tribes_surviving": 3,
+        "avg_lifespan": 0.0
+      },
+      "reproduction": {
+        "births": 0,
+        "deaths": 0,
+        "rate": 0.0,
+        "max_generation": 0
+      }
+    },
+    "intelligence": {
+      "temporal": {
+        "accuracy": 0.8560000000000001,
+        "prediction_rate": 0.0
+      },
+      "abstraction": {
+        "max_depth": 3,
+        "avg_depth": 3,
+        "progression": []
+      },
+      "memory": {
+        "episodic": 0,
+        "semantic": 0,
+        "utilization": 0.0
+      },
+      "goals": {
+        "formed": 51,
+        "completed": 0,
+        "completion_rate": 0.0
+      }
+    },
+    "success": {
+      "emergence": 66.66666666666667,
+      "survival": 72.47498034028746,
+      "intelligence": 100,
+      "overall": 78.40916076875291,
+      "components": {
+        "language": 100,
+        "culture": 0.0,
+        "competition": 100
+      }
+    },
+    "use_cases": {
+      "gaming": {
+        "use_case": "gaming",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "ai_safety": {
+        "use_case": "ai_safety",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "education": {
+        "use_case": "education",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "robotics": {
+        "use_case": "robotics",
+        "score": 30.0,
+        "suitable": false,
+        "recommendations": [
+          "Increase inter-tribe knowledge sharing",
+          "Improve goal-directed behavior"
+        ]
+      }
+    },
+    "learning_verification": {
+      "temporal_learning": false,
+      "symbol_accumulation": true,
+      "abstraction_progression": true,
+      "knowledge_transfer": true,
+      "meta_symbol_usage": true,
+      "evidence": [
+        "Symbols accumulated: 118 \u2192 216",
+        "Composed symbols reached: 377",
+        "Meta-symbols reached: 50",
+        "Knowledge transfer events: symbols exchanged between tribes"
+      ]
+    },
+    "history": {
+      "population_final": 100,
+      "population_max": 116,
+      "symbols_final": 216,
+      "composed_final": 377,
+      "meta_final": 41,
+      "wars_total": 310,
+      "alliances_total": 30,
+      "temporal_accuracy_final": 0.8560000000000001
+    },
+    "tribes": {
+      "0": {
+        "population": 23,
+        "symbols": 43,
+        "composed": 76,
+        "meta": 7,
+        "temporal_accuracy": 0.87,
+        "home_biome": 1,
+        "status": "ACTIVE",
+        "goals": 12,
+        "avg_value": -0.33,
+        "dominance": 101.4,
+        "victories": 25,
+        "allies": 6,
+        "enemies": 3
+      },
+      "1": {
+        "population": 30,
+        "symbols": 30,
+        "composed": 54,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -0.45,
+        "dominance": 126.0,
+        "victories": 36,
+        "allies": 6,
+        "enemies": 3
+      },
+      "2": {
+        "population": 47,
+        "symbols": 34,
+        "composed": 64,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 12,
+        "avg_value": -0.51,
+        "dominance": 164.1,
+        "victories": 43,
+        "allies": 8,
+        "enemies": 1
+      },
+      "3": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 11,
+        "meta": 2,
+        "temporal_accuracy": 0.84,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -26.12,
+        "dominance": 18.3,
+        "victories": 4,
+        "allies": 5,
+        "enemies": 4
+      },
+      "4": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 33,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -18.29,
+        "dominance": 44.8,
+        "victories": 18,
+        "allies": 6,
+        "enemies": 3
+      },
+      "5": {
+        "population": 0,
+        "symbols": 18,
+        "composed": 34,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 1,
+        "status": "EXTINCT",
+        "goals": 2,
+        "avg_value": -5.95,
+        "dominance": 43.3,
+        "victories": 16,
+        "allies": 5,
+        "enemies": 4
+      },
+      "6": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 9,
+        "meta": 2,
+        "temporal_accuracy": 0.82,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 2,
+        "avg_value": -36.97,
+        "dominance": 16.8,
+        "victories": 4,
+        "allies": 6,
+        "enemies": 3
+      },
+      "7": {
+        "population": 0,
+        "symbols": 16,
+        "composed": 33,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -14.3,
+        "dominance": 101.3,
+        "victories": 46,
+        "allies": 6,
+        "enemies": 3
+      },
+      "8": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 33,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 2,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -29.38,
+        "dominance": 66.8,
+        "victories": 28,
+        "allies": 6,
+        "enemies": 3
+      },
+      "9": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 30,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 3,
+        "avg_value": -29.08,
+        "dominance": 72.3,
+        "victories": 31,
+        "allies": 6,
+        "enemies": 3
+      }
+    },
+    "evolution": {
+      "run_id": 2,
+      "new_symbols": 36,
+      "retained_symbols": 26,
+      "new_meta_symbols": 3,
+      "total_symbols": 62,
+      "total_meta": 12,
+      "knowledge_retention": 0.41935483870967744
+    },
+    "elapsed_time": 35.4725546836853,
+    "world_size": [
+      24,
+      24
+    ]
+  },
+  {
+    "simulation": {
+      "steps": 2500,
+      "world_size": [
+        26,
+        26
+      ],
+      "competition_enabled": true
+    },
+    "emergence": {
+      "language": {
+        "vocabulary_size": 265,
+        "composed_symbols": 332,
+        "meta_symbols": 44,
+        "abstraction_depth": 3.0
+      },
+      "culture": {
+        "symbol_adoption_rate": 0.0,
+        "knowledge_transfer_events": 0,
+        "innovation_rate": 0.0
+      },
+      "social": {
+        "tribe_count": 10,
+        "alliance_count": 31,
+        "war_count": 448,
+        "dominance_stability": 0.0
+      },
+      "behavior": {
+        "goal_formation_rate": 0.0,
+        "planning_depth": 0.0,
+        "exploration_rate": 0.0
+      }
+    },
+    "survival": {
+      "population": {
+        "min": 10,
+        "max": 156,
+        "final": 107,
+        "mean": 102.7084,
+        "std": 18.28436207797908
+      },
+      "survival": {
+        "extinction_events": 0,
+        "tribes_extinct": 0,
+        "tribes_surviving": 7,
+        "avg_lifespan": 0.0
+      },
+      "reproduction": {
+        "births": 0,
+        "deaths": 0,
+        "rate": 0.0,
+        "max_generation": 0
+      }
+    },
+    "intelligence": {
+      "temporal": {
+        "accuracy": 0.8620000000000001,
+        "prediction_rate": 0.0
+      },
+      "abstraction": {
+        "max_depth": 3,
+        "avg_depth": 3,
+        "progression": []
+      },
+      "memory": {
+        "episodic": 0,
+        "semantic": 0,
+        "utilization": 0.0
+      },
+      "goals": {
+        "formed": 59,
+        "completed": 0,
+        "completion_rate": 0.0
+      }
+    },
+    "success": {
+      "emergence": 66.66666666666667,
+      "survival": 91.0988964495703,
+      "intelligence": 100,
+      "overall": 83.99633560153777,
+      "components": {
+        "language": 100,
+        "culture": 0.0,
+        "competition": 100
+      }
+    },
+    "use_cases": {
+      "gaming": {
+        "use_case": "gaming",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "ai_safety": {
+        "use_case": "ai_safety",
+        "score": 99.62922751469921,
+        "suitable": true,
+        "recommendations": []
+      },
+      "education": {
+        "use_case": "education",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "robotics": {
+        "use_case": "robotics",
+        "score": 70.0,
+        "suitable": true,
+        "recommendations": [
+          "Increase inter-tribe knowledge sharing",
+          "Improve goal-directed behavior"
+        ]
+      }
+    },
+    "learning_verification": {
+      "temporal_learning": false,
+      "symbol_accumulation": true,
+      "abstraction_progression": true,
+      "knowledge_transfer": true,
+      "meta_symbol_usage": true,
+      "evidence": [
+        "Symbols accumulated: 113 \u2192 264",
+        "Composed symbols reached: 332",
+        "Meta-symbols reached: 54",
+        "Knowledge transfer events: symbols exchanged between tribes"
+      ]
+    },
+    "history": {
+      "population_final": 107,
+      "population_max": 156,
+      "symbols_final": 265,
+      "composed_final": 332,
+      "meta_final": 44,
+      "wars_total": 448,
+      "alliances_total": 31,
+      "temporal_accuracy_final": 0.8620000000000001
+    },
+    "tribes": {
+      "0": {
+        "population": 32,
+        "symbols": 42,
+        "composed": 58,
+        "meta": 6,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 11,
+        "avg_value": -0.58,
+        "dominance": 190.6,
+        "victories": 64,
+        "allies": 8,
+        "enemies": 1
+      },
+      "1": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 8,
+        "meta": 2,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -36.21,
+        "dominance": 19.3,
+        "victories": 5,
+        "allies": 6,
+        "enemies": 3
+      },
+      "2": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 6,
+        "meta": 2,
+        "temporal_accuracy": 0.85,
+        "home_biome": 2,
+        "status": "EXTINCT",
+        "goals": 0,
+        "avg_value": -40.29,
+        "dominance": 14.8,
+        "victories": 3,
+        "allies": 5,
+        "enemies": 4
+      },
+      "3": {
+        "population": 8,
+        "symbols": 28,
+        "composed": 41,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -3.15,
+        "dominance": 174.4,
+        "victories": 75,
+        "allies": 6,
+        "enemies": 3
+      },
+      "4": {
+        "population": 9,
+        "symbols": 34,
+        "composed": 32,
+        "meta": 7,
+        "temporal_accuracy": 0.87,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 6,
+        "avg_value": -0.93,
+        "dominance": 104.7,
+        "victories": 38,
+        "allies": 5,
+        "enemies": 4
+      },
+      "5": {
+        "population": 5,
+        "symbols": 34,
+        "composed": 36,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -0.59,
+        "dominance": 87.5,
+        "victories": 32,
+        "allies": 6,
+        "enemies": 3
+      },
+      "6": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 18,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 2,
+        "status": "EXTINCT",
+        "goals": 2,
+        "avg_value": -25.7,
+        "dominance": 34.8,
+        "victories": 12,
+        "allies": 7,
+        "enemies": 2
+      },
+      "7": {
+        "population": 1,
+        "symbols": 27,
+        "composed": 52,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 1,
+        "status": "ACTIVE",
+        "goals": 6,
+        "avg_value": -0.61,
+        "dominance": 158.8,
+        "victories": 72,
+        "allies": 7,
+        "enemies": 2
+      },
+      "8": {
+        "population": 3,
+        "symbols": 20,
+        "composed": 33,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 5,
+        "avg_value": -6.09,
+        "dominance": 71.9,
+        "victories": 29,
+        "allies": 5,
+        "enemies": 4
+      },
+      "9": {
+        "population": 49,
+        "symbols": 35,
+        "composed": 48,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 9,
+        "avg_value": -0.29,
+        "dominance": 155.2,
+        "victories": 37,
+        "allies": 7,
+        "enemies": 2
+      }
+    },
+    "evolution": {
+      "run_id": 3,
+      "new_symbols": 45,
+      "retained_symbols": 43,
+      "new_meta_symbols": 5,
+      "total_symbols": 88,
+      "total_meta": 14,
+      "knowledge_retention": 0.6935483870967742
+    },
+    "elapsed_time": 45.91116142272949,
+    "world_size": [
+      26,
+      26
+    ]
+  },
+  {
+    "simulation": {
+      "steps": 2500,
+      "world_size": [
+        28,
+        28
+      ],
+      "competition_enabled": true
+    },
+    "emergence": {
+      "language": {
+        "vocabulary_size": 184,
+        "composed_symbols": 385,
+        "meta_symbols": 49,
+        "abstraction_depth": 3.0
+      },
+      "culture": {
+        "symbol_adoption_rate": 0.0,
+        "knowledge_transfer_events": 0,
+        "innovation_rate": 0.0
+      },
+      "social": {
+        "tribe_count": 10,
+        "alliance_count": 29,
+        "war_count": 457,
+        "dominance_stability": 0.0
+      },
+      "behavior": {
+        "goal_formation_rate": 0.0,
+        "planning_depth": 0.0,
+        "exploration_rate": 0.0
+      }
+    },
+    "survival": {
+      "population": {
+        "min": 13,
+        "max": 138,
+        "final": 49,
+        "mean": 75.1852,
+        "std": 18.85849299555045
+      },
+      "survival": {
+        "extinction_events": 0,
+        "tribes_extinct": 0,
+        "tribes_surviving": 5,
+        "avg_lifespan": 0.0
+      },
+      "reproduction": {
+        "births": 0,
+        "deaths": 0,
+        "rate": 0.0,
+        "max_generation": 0
+      }
+    },
+    "intelligence": {
+      "temporal": {
+        "accuracy": 0.8600000000000001,
+        "prediction_rate": 0.0
+      },
+      "abstraction": {
+        "max_depth": 3,
+        "avg_depth": 3,
+        "progression": []
+      },
+      "memory": {
+        "episodic": 0,
+        "semantic": 0,
+        "utilization": 0.0
+      },
+      "goals": {
+        "formed": 53,
+        "completed": 0,
+        "completion_rate": 0.0
+      }
+    },
+    "success": {
+      "emergence": 66.66666666666667,
+      "survival": 87.4586401342615,
+      "intelligence": 100,
+      "overall": 82.90425870694511,
+      "components": {
+        "language": 100,
+        "culture": 0.0,
+        "competition": 100
+      }
+    },
+    "use_cases": {
+      "gaming": {
+        "use_case": "gaming",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "ai_safety": {
+        "use_case": "ai_safety",
+        "score": 97.02104809398307,
+        "suitable": true,
+        "recommendations": []
+      },
+      "education": {
+        "use_case": "education",
+        "score": 100,
+        "suitable": true,
+        "recommendations": []
+      },
+      "robotics": {
+        "use_case": "robotics",
+        "score": 50.0,
+        "suitable": true,
+        "recommendations": [
+          "Increase inter-tribe knowledge sharing",
+          "Improve goal-directed behavior"
+        ]
+      }
+    },
+    "learning_verification": {
+      "temporal_learning": false,
+      "symbol_accumulation": true,
+      "abstraction_progression": true,
+      "knowledge_transfer": true,
+      "meta_symbol_usage": true,
+      "evidence": [
+        "Symbols accumulated: 124 \u2192 189",
+        "Composed symbols reached: 385",
+        "Meta-symbols reached: 56",
+        "Knowledge transfer events: symbols exchanged between tribes"
+      ]
+    },
+    "history": {
+      "population_final": 49,
+      "population_max": 138,
+      "symbols_final": 184,
+      "composed_final": 385,
+      "meta_final": 49,
+      "wars_total": 457,
+      "alliances_total": 29,
+      "temporal_accuracy_final": 0.8600000000000001
+    },
+    "tribes": {
+      "0": {
+        "population": 0,
+        "symbols": 16,
+        "composed": 24,
+        "meta": 3,
+        "temporal_accuracy": 0.86,
+        "home_biome": 1,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -32.75,
+        "dominance": 21.3,
+        "victories": 6,
+        "allies": 5,
+        "enemies": 4
+      },
+      "1": {
+        "population": 26,
+        "symbols": 28,
+        "composed": 38,
+        "meta": 6,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -4.95,
+        "dominance": 73.8,
+        "victories": 13,
+        "allies": 7,
+        "enemies": 2
+      },
+      "2": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 52,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 5,
+        "avg_value": -1.15,
+        "dominance": 106.8,
+        "victories": 46,
+        "allies": 7,
+        "enemies": 2
+      },
+      "3": {
+        "population": 0,
+        "symbols": 12,
+        "composed": 36,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 0,
+        "status": "EXTINCT",
+        "goals": 1,
+        "avg_value": -26.29,
+        "dominance": 51.3,
+        "victories": 22,
+        "allies": 6,
+        "enemies": 3
+      },
+      "4": {
+        "population": 3,
+        "symbols": 26,
+        "composed": 63,
+        "meta": 5,
+        "temporal_accuracy": 0.84,
+        "home_biome": 1,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -1.04,
+        "dominance": 154.9,
+        "victories": 69,
+        "allies": 6,
+        "enemies": 3
+      },
+      "5": {
+        "population": 8,
+        "symbols": 19,
+        "composed": 38,
+        "meta": 9,
+        "temporal_accuracy": 0.86,
+        "home_biome": 2,
+        "status": "ACTIVE",
+        "goals": 5,
+        "avg_value": -4.9,
+        "dominance": 139.9,
+        "victories": 60,
+        "allies": 5,
+        "enemies": 4
+      },
+      "6": {
+        "population": 0,
+        "symbols": 15,
+        "composed": 35,
+        "meta": 4,
+        "temporal_accuracy": 0.86,
+        "home_biome": 1,
+        "status": "EXTINCT",
+        "goals": 6,
+        "avg_value": -24.15,
+        "dominance": 102.8,
+        "victories": 47,
+        "allies": 5,
+        "enemies": 4
+      },
+      "7": {
+        "population": 3,
+        "symbols": 11,
+        "composed": 38,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 0,
+        "status": "ACTIVE",
+        "goals": 4,
+        "avg_value": -0.42,
+        "dominance": 87.4,
+        "victories": 39,
+        "allies": 6,
+        "enemies": 3
+      },
+      "8": {
+        "population": 9,
+        "symbols": 23,
+        "composed": 39,
+        "meta": 5,
+        "temporal_accuracy": 0.86,
+        "home_biome": 1,
+        "status": "ACTIVE",
+        "goals": 8,
+        "avg_value": -2.78,
+        "dominance": 151.2,
+        "victories": 64,
+        "allies": 5,
+        "enemies": 4
+      },
+      "9": {
+        "population": 0,
+        "symbols": 19,
+        "composed": 22,
+        "meta": 4,
+        "temporal_accuracy": 0.87,
+        "home_biome": 1,
+        "status": "EXTINCT",
+        "goals": 4,
+        "avg_value": -42.99,
+        "dominance": 32.1,
+        "victories": 9,
+        "allies": 6,
+        "enemies": 3
+      }
+    },
+    "evolution": {
+      "run_id": 4,
+      "new_symbols": 11,
+      "retained_symbols": 46,
+      "new_meta_symbols": 3,
+      "total_symbols": 57,
+      "total_meta": 14,
+      "knowledge_retention": 0.5227272727272727
+    },
+    "elapsed_time": 35.021193981170654,
+    "world_size": [
+      28,
+      28
+    ]
+  }
+]
