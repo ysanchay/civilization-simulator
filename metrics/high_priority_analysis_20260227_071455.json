@@ -1,0 +1,60 @@
+{
+  "long_horizon": {
+    "n_runs": 2,
+    "steps_per_run": 5000,
+    "total_collapses": 0,
+    "collapse_rate_per_run": 0.0,
+    "mean_collapse_time": 0,
+    "std_collapse_time": 0,
+    "kurtosis_values": [
+      -3.0,
+      -3.0
+    ],
+    "mean_kurtosis": -3.0,
+    "heavy_tailed": "False",
+    "population_stability": {
+      "final_pop": 0.0,
+      "max_pop": 0.0
+    },
+    "symbol_growth": {
+      "final_symbols": 0.0,
+      "max_symbols": 0.0
+    }
+  },
+  "collapse_archetypes": {
+    "n_collapses": 0
+  },
+  "war_distribution": {
+    "n_runs": 15,
+    "total_wars": 0,
+    "wars_per_run": 0.0,
+    "war_intervals": {
+      "mean": 223.99527846647445,
+      "std": 200.92799803003572,
+      "kurtosis": 4.562317018914943,
+      "cv": 0.8970188988158475
+    },
+    "distribution": {
+      "heavy_tailed": true,
+      "clustered": "False",
+      "interpretation": "power_law"
+    }
+  },
+  "complexity_evolution": {
+    "n_runs": 2,
+    "steps_per_run": 8000,
+    "symbols": {
+      "trend": "stable",
+      "slope": 0.0
+    },
+    "diversity": {
+      "trend": "stable",
+      "slope": 0.0
+    },
+    "entropy": {
+      "trend": "stable",
+      "slope": 0.0
+    },
+    "open_ended": false
+  }
+}

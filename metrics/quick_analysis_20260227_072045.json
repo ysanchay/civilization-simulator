@@ -1,0 +1,18 @@
+{
+  "stability": {
+    "final_pop": 16012,
+    "max_pop": 16012,
+    "collapses": 15,
+    "kurtosis": 0.8749343818808231,
+    "heavy_tailed": false
+  },
+  "collapse_types": {
+    "efficiency": 58,
+    "overpopulation": 1
+  },
+  "wars": {
+    "total": 0,
+    "per_run": 0.0,
+    "variance": 0.0
+  }
+}
