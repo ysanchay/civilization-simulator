@@ -163,7 +163,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full system diagrams.
 
 ```bash
 # Clone the repository
-git clone https://github.com/sanchaykumar/civilization-simulator.git
+git clone https://github.com/ysanchay/civilization-simulator.git
 cd civilization-simulator
 
 # Install dependencies
@@ -243,4 +243,4 @@ This work builds on decades of research in:
 
 **Sanchay Kumar**
 Email: ysanchay@gmail.com
-GitHub: [@sanchaykumar](https://github.com/sanchaykumar)
+GitHub: [@ysanchay](https://github.com/ysanchay)
